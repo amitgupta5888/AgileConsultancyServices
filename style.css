@@ -1,38 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 header {
-    background: #007bff;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
-main {
-    padding: 2rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-h1, h2 {
-    color: #007bff;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
-ul li {
-    margin: 0.5rem 0;
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.cta-btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.services, .about, .contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 footer {
-    background: #f4f4f4;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    font-size: 0.9rem;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
