@@ -1,31 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agile Consultancy Services</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agile Consultancy Services</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Agile Consultancy Services</h1>
-        <p>Your Partner in Cloud and AI/ML Consulting</p>
-    </header>
-    <main>
-        <section id="services">
-            <h2>Our Expertise</h2>
-            <ul>
-                <li><strong>Cloud Consulting:</strong> AWS and Azure solutions tailored to your needs.</li>
-                <li><strong>AI/ML Services:</strong> Building intelligent systems to drive business insights.</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: <a href="mailto:info@agileconsultancy.com">info@agileconsultancy.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Agile Consultancy Services. All rights reserved.</p>
-    </footer>
+  <header>
+    <nav>
+      <div class="logo">Agile Consultancy</div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Transform Your Business with Agile Consultancy</h1>
+      <p>Empowering businesses with expert cloud and AI/ML solutions.</p>
+      <a href="#services" class="cta-btn">Explore Services</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Cloud Consulting</h3>
+        <p>Optimize your cloud infrastructure with tailored solutions.</p>
+      </div>
+      <div class="card">
+        <h3>AI/ML Solutions</h3>
+        <p>Leverage AI/ML to drive innovation and efficiency.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Agile Consultancy, we bring years of expertise in cloud and AI/ML services to help businesses achieve their goals. Our dedicated team is committed to delivering results-driven solutions.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? We're here to help!</p>
+    <form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Agile Consultancy Services. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
